@@ -1,4 +1,4 @@
-nav ul {
+/* nav ul {
     list-style: none;
     display: flex;  
     justify-content: space-around;
@@ -19,7 +19,7 @@ ul li a:hover {
 }
 
 #top {
-    background-image: url(Images/background.webp);
+    background-image: url(proj_images/background.webp);
 
     background-color:rgb(212, 233, 135);
     margin-bottom: 10px;
@@ -27,14 +27,14 @@ ul li a:hover {
 
   }
   #middle {
-    background-image: url(Images/new.jpg);
+    background-image: url(proj_images/new.jpg);
     background-color: rgba(244, 195, 178, 0.817);
     margin-bottom: 12px;
     color: black;
   }
   
   #last {
-    background-image: url(Images/ice.jpg);
+    background-image: url(proj_images/ice.jpg);
     background-color: rgba(143, 199, 215, 0.635);
     color: rgb(9, 39, 2);
 
@@ -99,7 +99,7 @@ ul li a:hover {
 
 .cards-container {
     display: flex;
-    background-image: url(Images/beach.jpg);
+    background-image: url(proj_images/beach.jpg);
     justify-content: center;
     flex-wrap: wrap;
   }
@@ -110,7 +110,142 @@ ul li a:hover {
         rgba(0, 0, 0, 0.5) 60%,
         rgba(0, 0, 0, 0.5) 50%
       ),
-      url(Images/footer.png);
+      url(proj_images/footer.png);
+    background-position: center;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  .footer-section a {
+    color: #c6baad;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .footer-section a:hover {
+    color: rgba(197, 197, 59, 0.667);
+  } */
+
+
+
+
+
+
+
+
+  nav ul {
+    list-style: none;
+    display: flex;  
+    justify-content: space-around;
+    
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bolder;
+    transition: 0.3s ease-in-out;
+    font-family: "Courier New", Courier, monospace;
+}
+
+ul li a:hover {
+    color: rgb(191, 49, 49);
+    text-decoration: underline;
+}
+
+#top {
+    background-image: url(proj_images/background.webp);
+
+    background-color:rgb(212, 233, 135);
+    margin-bottom: 10px;
+    color: rgb(9, 39, 2);
+
+  }
+  #middle {
+    background-image: url(proj_images/new.jpg);
+    background-color: rgba(244, 195, 178, 0.817);
+    margin-bottom: 12px;
+    color: black;
+  }
+  
+  #last {
+    background-image: url(proj_images/ice.jpg);
+    background-color: rgba(143, 199, 215, 0.635);
+    color: rgb(9, 39, 2);
+
+  }
+  #top,
+  #middle,
+  #last {
+    border-radius: 30px;
+    font-size: 18px;
+    text-align:left;
+
+  }
+  #top h2,
+  #middle h2,
+  #last h2 {
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .container {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 20px;
+    width: 1100px;
+    height: 500px;
+  }
+  
+  #top img,
+  #middle img,
+  #last img {
+    height: 300px;
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  #cards-section h2 {
+    text-align: center;
+    color: rgb(229, 131, 11);
+    
+  }
+  
+  .card {
+    border-radius: 8px;
+    margin: 20px;
+    width: 200px;
+    height: 320px;
+    padding: 15px;
+    background-color: rgba(118, 69, 59, 0.393);
+    text-align: center;
+    color:whitesmoke;
+}
+
+.card img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: scale(1.07);
+}
+
+.cards-container {
+    display: flex;
+    background-image: url(proj_images/beach.jpg);
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  footer {
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.5) 60%,
+        rgba(0, 0, 0, 0.5) 50%
+      ),
+      url(proj_images/footer.png);
     background-position: center;
     padding: 25px;
     text-align: center;
